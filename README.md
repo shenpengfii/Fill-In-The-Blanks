@@ -2,7 +2,7 @@
 
 项目的主要工作在于手动实现了条件随机场 (Conditional Random Field, CRF) 组件的训练和推理算法, 并利用 PyQT5 编写了一个简单的用户界面.
 
-![软件截图](./screenshot.png)
+![软件截图](./img/screenshot.jpg)
 
 模型由基于 Penn 词性标注集的 Brown 语料库训练而成, 该语料库包含共计 1,000,000 个英文单词.
 
@@ -61,3 +61,5 @@ Dear Sirs : let me begin by clearing up any possible misconception in your minds
 [8] CreateMoMo. (2017, Dec 7). CRF Layer on the Top of BiLSTM - 8. *CreateMoMo*. https://createmomo.github.io/2017/12/07/CRF-Layer-on-the-Top-of-BiLSTM-8//  
 [9] 苏剑林. (Feb. 07, 2020). 《你的CRF层的学习率可能不够大 》[Blog post]. Retrieved from https://spaces.ac.cn/archives/7196  
 [10] Kristopher Kyle. (2021, Apr 7). Introduction to POS Tagging. *Corpus-Linguistics-Working-Group*. https://kristopherkyle.github.io/Corpus-Linguistics-Working-Group/pos_tagging_1.html  
+[11] Pytorch Tutorials. (2017, Apr 8). Advanced: Making Dynamic Decisions and the Bi-LSTM CRF. *Pytorch Tutorials*. https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html#advanced-making-dynamic-decisions-and-the-bi-lstm-crf  
+[12] 虎哥. (2019, Dec 16). 手撕 BiLSTM-CRF. *知乎*. https://zhuanlan.zhihu.com/p/97676647  
